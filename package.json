@@ -18,10 +18,10 @@
     "underscore": "^1.8.3",
     "connect": "^3.2.0",
     "js-yaml": "^3.3.0",
-    "swagger-tools": "0.9.*"
+    "swagger-tools": "0.9.*",
+    "bower": "^1.7.7"
   },
   "devDependencies": {
-    "bower": "^1.7.7",
     "dateformat": "^1.0.12",
     "grunt": "^0.4.5",
     "grunt-browserify": "^4.0.1",
