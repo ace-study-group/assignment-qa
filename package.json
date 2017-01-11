@@ -9,7 +9,7 @@
     "hbsfy": "^2.3.1",
     "jade": "1.11.0",
     "jquery": "^2.1.4",
-    "json-server": "^0.8.7",
+    "json-server": "^0.9.4",
     "method-override": "~1.0.0",
     "mongodb": "^2.1.0",
     "mongoose": "~3.5.5",
