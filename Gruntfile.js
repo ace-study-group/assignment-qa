@@ -53,9 +53,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-
   grunt.registerTask('default', ['browserify']);
   grunt.registerTask('dist', ['browserify:client', 'uglify']);
   grunt.registerTask('test', ['browserify:specs', 'jasmine']);
-  grunt.registerTask('heroku', ['dist']);
 };
