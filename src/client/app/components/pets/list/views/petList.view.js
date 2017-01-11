@@ -19,7 +19,6 @@ module.exports = Backbone.View.extend({
   },
 
   createPetItemViews: function() {
-    console.log('petList.view.js - createPetItemViews');
     var self = this;
     return this.collection.map(function(petModel) {
       var view = new PetItemView({
@@ -34,12 +33,10 @@ module.exports = Backbone.View.extend({
   },
 
   didRequestItemDelete: function(itemData) {
-    console.log('petList.view.js - didRequestItemDelete');
     this.trigger('petList:delete', itemData);
   },
 
   didRequestItemEdit: function(itemData) {
-    console.log('petList.view.js - didRequestItemEdit');
     this.trigger('petList:edit', itemData);
   },
 
@@ -48,7 +45,6 @@ module.exports = Backbone.View.extend({
   },
 
   render: function() {
-    console.log('petList.view.js - render');
     this.$el.html(this.template());
 
     var tableBody = this.getTableBodyContainer(),

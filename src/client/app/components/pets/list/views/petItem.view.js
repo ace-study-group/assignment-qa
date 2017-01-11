@@ -21,7 +21,6 @@ module.exports = Backbone.View.extend({
     },
 
     didClickPet: function (e) {
-        console.log('petItem.view.js - didDClickPet');
         this.toggle();
         $(e.currentTarget).parent().find('input').focus();
     },
@@ -62,7 +61,6 @@ module.exports = Backbone.View.extend({
     },
 
     render: function () {
-        console.log('petItem.view.js - render');
         var html = this.template(this.model.toJSON());
         this.$el.html(html);
         this.id = this.model.get('id');
