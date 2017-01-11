@@ -25,21 +25,17 @@ module.exports = Backbone.View.extend({
   },
 
   didRequestItemEdit: function(itemData) {
-    console.log('app.view.js - didRequestItemEdit');
     petService.updatePet(itemData).then(this.loadPets);
   },
   didRequestItemDeletion: function(itemData) {
-    console.log('app.view.js - didRequestItemDeletion');
     petService.deletePet(itemData.id).then(this.loadPets);
   },
 
   didLoadPets: function(pets) {
-    console.log('app.view.js - didLoadPets');
     this.petListView.update(pets);
   },
 
   render: function() {
-    console.log('app.view.js - render');
     this.$el.append(this.petFormView.render().el);
     this.$el.append(this.petListView.render().el);
 

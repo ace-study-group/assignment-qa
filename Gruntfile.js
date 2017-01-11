@@ -22,7 +22,13 @@ module.exports = function(grunt) {
         }
       }
     },
-
+    copy: {
+      file: {
+        src: 'node_modules/bootstrap/dist/css/bootstrap.min.css',
+        dest: 'src/client/dist/bootstrap.min.css',
+        expand: false
+      }
+    },
     uglify: {
       options: {
         compress: true
@@ -53,7 +59,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.registerTask('default', ['browserify']);
-  grunt.registerTask('dist', ['browserify:client', 'uglify']);
+  grunt.registerTask('dist', ['browserify:client', 'uglify', 'copy']);
   grunt.registerTask('test', ['browserify:specs', 'jasmine']);
 };
