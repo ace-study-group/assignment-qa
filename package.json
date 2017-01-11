@@ -37,8 +37,8 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "bower install",
-    "postinstall": "grunt dist"
+    "postinstall": "bower install",
+    "prestart": "grunt dist"
   },
   "license": "ISC"
 }
