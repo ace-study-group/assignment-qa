@@ -25,14 +25,9 @@ To make this possible, we expect you to provide minimal instructions on how to r
 *The team tested the app on MacOSX & Windows 7, it should work on Linux as well*
 - Version 4.3.1 of Node.js.
 
-## Download app dependencies
+## Download app dependencies & build
 *Depending on your system, you might need to execute npm with admin rights.*
-
 - Navigate to project root folder and type `npm install`.
-- Navigate to project root folder and type `bower install`.
-
-## Build the app
-- Navigate to project root and type `grunt dist`.
 
 ## Run the app
 - Navigate to project root folder and type
