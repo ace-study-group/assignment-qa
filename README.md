@@ -41,6 +41,9 @@ To make this possible, we expect you to provide minimal instructions on how to r
 ## Accessing the app
 [Petstore web app](http://localhost:3000)
 
+## If you feel lazy
+[Petstore web app deployed on Heroku](https://qa-petstore.herokuapp.com/)
+
 ## Useful
 - [Node.js website](https://nodejs.org/en/download/)
 - [Python](https://www.python.org/downloads/)
