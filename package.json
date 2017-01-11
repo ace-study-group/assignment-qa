@@ -1,7 +1,6 @@
 {
-  "name": "petstore-excercise",
-  "description": "This is a excercise to show some web skills for interview.",
-  "author": "Piotr Nowak <p.nowak2@gmail.com>",
+  "name": "qa-assignment"
+  "author": "Piotr Nowak <p.nowak2@gmail.com> and Jean-Michel Garcia <contact@jmichelgarcia.com>",
   "version": "0.1.0",
   "dependencies": {
     "backbone": "^1.2.3",
@@ -37,15 +36,8 @@
   },
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmichelgarcia/petstore-excercise.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/json-server/bin/index.js --watch src/server/db.json --routes src/server/routes.json --static src/client"
   },
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jmichelgarcia/petstore-excercise/issues"
-  },
-  "homepage": "https://github.com/jmichelgarcia/petstore-excercise#readme"
 }
