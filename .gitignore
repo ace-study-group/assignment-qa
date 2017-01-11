@@ -1,0 +1,11 @@
+build/
+db/
+bower_components/
+src/client/lib/
+node_modules/
+bundle.js
+specs.js
+.grunt
+.sublime-grunt.cache
+/_SpecRunner.html
+src/client/dist/

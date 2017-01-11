@@ -1,0 +1,95 @@
+/*
+ * Masthead for nav
+ */
+.assignment-masthead {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Nav links */
+.assignment-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+}
+.assignment-nav-item:hover,
+.assignment-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Blog name and description
+ */
+
+.assignment-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.assignment-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.assignment-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.assignment-post {
+  margin-bottom: 60px;
+}
+.assignment-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.assignment-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+/*
+ * Inline edit of Pets
+ */
+
+.pet-list td span, .pet-list td input
+{
+  margin:0;
+  word-break: break-all;
+  padding: 5px 5px 5px 5px;
+  display:inline-block;
+}
+
+.pet-list .edit .pet.lbl, .pet-list input.pet
+{
+  display:none;
+}
+
+.pet-list td span
+{
+  width:100%;
+}
+
+.pet-list .edit input.pet
+{
+  display:inherit;
+  width:80%;
+}
+
+.card .table th, .card .table tr
+{
+  width:33%;
+}
+
+.banner-date{
+  display:inline-block;
+}
