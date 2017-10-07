@@ -15,7 +15,7 @@ To make this possible, we expect you to provide minimal instructions on how to r
 **A QA engineer** will do a pair review of your code to asses its quality, coherence, and portability.
 
 # The Kanban board at mid sprint
-![Kanban Board](./assignment/Kanban Board.png "Kanban board at mid sprint")
+[Kanban Board](./assignment/Kanban%20Board.png)
 
 # User stories and definition of Done
 [User stories and DoD](./assignment/USER-STORIES.md)
