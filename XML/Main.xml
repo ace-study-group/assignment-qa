@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutomationProjects>
+	<ProjectDetails id="5">
+		<Run>YES</Run>
+		<UserStory></UserStory>
+		<Type>API</Type> <!-- server requests, UI, Mobile, Headless, All -->
+		<Link>https://qa-petstore.herokuapp.com</Link>
+		<DataRequests>GET:/api/pets;GET:/api/pets/1;PUT:/api/pets/2;DELETE:/api/pets/3;POST:/api/pets</DataRequests>
+		<Browsers>Chrome</Browsers>  <!-- Chrome, FF, Edge -->
+	</ProjectDetails>
+	<ProjectDetails id="1">
+		<Run>YES</Run>
+		<UserStory>Display Current Date</UserStory>
+		<Type>WEB</Type> <!-- server requests, UI, Mobile, Headless, All -->
+		<Link>https://qa-petstore.herokuapp.com</Link>
+		<DataRequests></DataRequests>
+		<Browsers>Chrome</Browsers>  <!-- Chrome, FF, Edge -->
+	</ProjectDetails>
+</AutomationProjects>
