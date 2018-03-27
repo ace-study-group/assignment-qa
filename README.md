@@ -14,6 +14,8 @@ To make this possible, we expect you to provide minimal instructions on how to r
 
 **A QA engineer** will do a pair review of your code to asses its quality, coherence, and portability.
 
+**Note for interview :** Please upload your source code and instructions to Github or Bitbucket, so that the team can assess your style and prepare the interview.
+
 # The Kanban board at mid sprint
 [Kanban Board](./assignment/Kanban%20Board.png)
 
